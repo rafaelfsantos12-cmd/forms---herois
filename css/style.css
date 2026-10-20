@@ -1,0 +1,71 @@
+body {
+    background-color: #cde9ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #1E4ED7;
+    margin: 1px;
+    color: white;
+    padding: 1px;
+}
+form {
+    padding: 20px;
+    background-color: white;
+    display: flex; justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#card-gigante {
+    padding: 10px;
+    width: 500px;
+    height: fit-content;
+}
+
+button {
+    padding: 10px;
+    background-color: #DC2527;
+    color: white;
+}
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #94a3b8;
+}
+#prefere1 {
+    display: flex;
+    margin-bottom: 1px;
+}
+#prefere2 {
+    display: flex;
+    margin-bottom: 1px;
+}
+#prefere3 {
+    display: flex;
+    margin-bottom: 1px;
+}
+#prefere4 {
+    display: flex;
+}
+#opcoes {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background-color: #1E4ED7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    color: white;
+}
+input {
+    margin-right: 2px;
+}
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid #2563eb;
+}
